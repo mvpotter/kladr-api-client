@@ -8,6 +8,11 @@
 
 Visit [https://kladr-api.ru](https://kladr-api.ru) for more info.
 
+# Requirements
+
+- JDK 1.7
+- KLADR API token. You can get it for free [here](https://kladr-api.ru/register)
+
 # Maven
 
 kladrapi-client is distributed using [jitpack.io](https://jitpack.io/), thus it is necessary to add jitpack repository
