@@ -10,7 +10,7 @@ import javax.ws.rs.ext.ContextResolver;
  */
 public class ObjectMapperProvider implements ContextResolver<ObjectMapper> {
 
-    final ObjectMapper objectMapper;
+    private final ObjectMapper objectMapper;
 
     public ObjectMapperProvider() {
         objectMapper = new ObjectMapper();
