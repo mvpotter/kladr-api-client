@@ -1,5 +1,6 @@
 [![Maven](https://img.shields.io/github/tag/mvpotter/kladr-api-client.svg?label=maven)](https://jitpack.io/#mvpotter/kladr-api-client)
 [![Build Status](https://travis-ci.org/mvpotter/kladr-api-client.svg)](https://travis-ci.org/mvpotter/kladr-api-client)
+[![Dependency Status](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c)
 
 # KLADR API client
 
