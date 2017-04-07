@@ -1,5 +1,5 @@
 [![Maven](https://img.shields.io/github/tag/mvpotter/kladr-api-client.svg?label=maven)](https://jitpack.io/#mvpotter/kladr-api-client)
-[![Dependency Status](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c)
+[![Dependency Status](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c/badge.svg)](https://www.versioneye.com/user/projects/58e76d4626a5bb003f581a3c)
 [![Build Status](https://travis-ci.org/mvpotter/kladr-api-client.svg)](https://travis-ci.org/mvpotter/kladr-api-client)
 [![Coverage Status](https://coveralls.io/repos/github/mvpotter/kladr-api-client/badge.svg?branch=master)](https://coveralls.io/github/mvpotter/kladr-api-client?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6ac627c562bc4cb59ef92e1424b0ed1b)](https://www.codacy.com/app/mvpotter/kladr-api-client?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mvpotter/kladr-api-client&amp;utm_campaign=Badge_Grade)
