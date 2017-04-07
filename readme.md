@@ -1,4 +1,7 @@
-# KLADR API client [![Maven](https://img.shields.io/github/tag/mvpotter/kladr-api-client.svg?label=maven)](https://jitpack.io/#mvpotter/kladr-api-client)
+[![Maven](https://img.shields.io/github/tag/mvpotter/kladr-api-client.svg?label=maven)](https://jitpack.io/#mvpotter/kladr-api-client)
+[![Build Status](https://travis-ci.org/mvpotter/kladr-api-client.svg)](https://travis-ci.org/mvpotter/kladr-api-client)
+
+# KLADR API client
 
 Visit [https://kladr-api.ru](https://kladr-api.ru) for more info.
 
