@@ -1,10 +1,13 @@
 package com.mvpotter.kladrapi.response;
 
+import net.sourceforge.cobertura.CoverageIgnore;
+
 import java.util.List;
 
 /**
  * KLADR service response.
  */
+@CoverageIgnore
 public class Response {
 
     private SearchContext searchContext;

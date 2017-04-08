@@ -1,8 +1,11 @@
 package com.mvpotter.kladrapi.response;
 
+import net.sourceforge.cobertura.CoverageIgnore;
+
 /**
  * KLADR search context.
  */
+@CoverageIgnore
 public class SearchContext {
 
     private String query;
