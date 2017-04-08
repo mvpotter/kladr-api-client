@@ -1,7 +1,5 @@
 package com.mvpotter.kladrapi.request;
 
-import net.sourceforge.cobertura.CoverageIgnore;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,7 +33,6 @@ public abstract class AbstractRequest implements Request {
         return map;
     }
 
-    @CoverageIgnore
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("AbstractRequest { ");

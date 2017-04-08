@@ -1,34 +1,14 @@
 package com.mvpotter.kladrapi.response;
 
-import net.sourceforge.cobertura.CoverageIgnore;
-
 import java.util.List;
 
 /**
  * KLADR service response.
  */
-@CoverageIgnore
 public class Response {
 
     private SearchContext searchContext;
     private List<Locality> result;
-
-    /**
-     * Default constructor.
-     */
-    public Response() {
-    }
-
-    /**
-     * Constructor.
-     *
-     * @param result query result
-     * @param searchContext search context
-     */
-    public Response(final List<Locality> result, final SearchContext searchContext) {
-        this.result = result;
-        this.searchContext = searchContext;
-    }
 
     public List<Locality> getResult() {
         return result;

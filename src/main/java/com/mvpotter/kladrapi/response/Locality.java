@@ -1,13 +1,10 @@
 package com.mvpotter.kladrapi.response;
 
-import net.sourceforge.cobertura.CoverageIgnore;
-
 import java.util.List;
 
 /**
  * KLADR locality: region, district, city, street, building.
  */
-@CoverageIgnore
 public class Locality {
 
     private String id;
