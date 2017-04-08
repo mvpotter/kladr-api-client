@@ -14,7 +14,7 @@ public class DistrictRequestTest {
 
     @Test
     public void testToMap() {
-        final Request request = new DistrinctRequest(QUERY);
+        final Request request = new DistrictRequest(QUERY);
         final Map<String, String> map = request.toMap();
         Assert.assertNotNull(map.containsKey(PARAM_CONTENT_TYPE));
         Assert.assertNotNull(map.containsKey(PARAM_QUERY));
