@@ -35,6 +35,8 @@ to your pom.xml or setting.xml file.
 
 # Usage
 
+Javadoc can be found [here](https://jitpack.io/com/github/mvpotter/kladr-api-client/master/javadoc/).
+
 ### Create client instance
 
 ```java
@@ -44,6 +46,7 @@ import com.mvpotter.kladrapi.KladrApiClient;
 final KladrApiClient anotherFreeApiClient = new KladrApiClient(KladrApiClient.FREE_URL, "{ your API token }");
 // The short form of the client above
 final KladrApiClient freeApiClient = new KladrApiClient("{ your API token }");
+
 // If you have paid plan, URL is different and client should be created the following way
 final KladrApiClient anotherPaidApiClient = new KladrApiClient(KladrApiClient.PAID_URL, "{ your API token }");
 
@@ -52,6 +55,8 @@ final KladrApiClient anotherPaidApiClient = new KladrApiClient(KladrApiClient.PA
 ### Perform API request
 
 ```java
+import com.mvpotter.kladrapi.response.Response;
+
 final Response response = client.search(request);
 ```
 
