@@ -43,12 +43,12 @@ Javadoc can be found [here](https://jitpack.io/com/github/mvpotter/kladr-api-cli
 import com.mvpotter.kladrapi.KladrApiClient;
 
 // If you have free access plan you have to use appropriate URL:
-final KladrApiClient anotherFreeApiClient = new KladrApiClient(KladrApiClient.FREE_URL, "{ your API token }");
+final KladrApiClient freeApiClient = new KladrApiClient(KladrApiClient.FREE_URL, "{ your API token }");
 // The short form of the client above
-final KladrApiClient freeApiClient = new KladrApiClient("{ your API token }");
+final KladrApiClient anotherFreeApiClient = new KladrApiClient("{ your API token }");
 
 // If you have paid plan, URL is different and client should be created the following way
-final KladrApiClient anotherPaidApiClient = new KladrApiClient(KladrApiClient.PAID_URL, "{ your API token }");
+final KladrApiClient paidApiClient = new KladrApiClient(KladrApiClient.PAID_URL, "{ your API token }");
 
 ```
 
