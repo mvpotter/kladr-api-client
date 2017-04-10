@@ -129,3 +129,21 @@ new RequestWithParent(new CityRequest("Бутынь"))
 ```java
 new RequestWithLimit(new CityRequest("Моск"), { limit }, [{ offset }])
 ```
+
+#### Request with region id specified
+
+```java
+new RequestWithRegionId(new OneStringRequest("Моск"), { regionId })
+```
+
+#### Request with district id specified
+
+```java
+new RequestWithDistrictId(new OneStringRequest("Моск"), { districtId })
+```
+
+#### Request with city id specified
+
+```java
+new RequestWithCityId(new OneStringRequest("Ленина"), { cityId })
+```

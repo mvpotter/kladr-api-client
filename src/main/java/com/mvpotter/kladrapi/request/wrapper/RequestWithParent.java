@@ -1,4 +1,7 @@
-package com.mvpotter.kladrapi.request;
+package com.mvpotter.kladrapi.request.wrapper;
+
+import com.mvpotter.kladrapi.request.AbstractRequest;
+import com.mvpotter.kladrapi.request.Request;
 
 /**
  * KLADR request wrapper that adds include parent info property.

@@ -1,4 +1,8 @@
-package com.mvpotter.kladrapi.request;
+package com.mvpotter.kladrapi.request.wrapper;
+
+import com.mvpotter.kladrapi.request.AbstractRequest;
+import com.mvpotter.kladrapi.request.Request;
+import com.mvpotter.kladrapi.request.TypeCode;
 
 import java.util.Arrays;
 import java.util.HashSet;

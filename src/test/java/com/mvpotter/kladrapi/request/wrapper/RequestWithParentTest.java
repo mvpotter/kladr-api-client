@@ -1,5 +1,7 @@
-package com.mvpotter.kladrapi.request;
+package com.mvpotter.kladrapi.request.wrapper;
 
+import com.mvpotter.kladrapi.request.Request;
+import com.mvpotter.kladrapi.request.ZipRequest;
 import org.junit.Assert;
 import org.junit.Test;
 

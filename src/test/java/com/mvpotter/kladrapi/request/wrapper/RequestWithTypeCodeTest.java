@@ -1,5 +1,8 @@
-package com.mvpotter.kladrapi.request;
+package com.mvpotter.kladrapi.request.wrapper;
 
+import com.mvpotter.kladrapi.request.CityRequest;
+import com.mvpotter.kladrapi.request.Request;
+import com.mvpotter.kladrapi.request.TypeCode;
 import org.junit.Assert;
 import org.junit.Test;
 
